@@ -277,7 +277,7 @@ public class PdfDocument implements IDisposable{
 
         Resources res = _ctx.getResources();
 
-        if (window != null) {
+       /* if (window != null) {
             if(_ringProgressDialog !=null) {
                 _ringProgressDialog.dismiss();
             }
@@ -286,7 +286,7 @@ public class PdfDocument implements IDisposable{
 
             if(!_ringProgressDialog.isShowing())
                 _ringProgressDialog.show();
-        }
+        }*/
 
         _thread = new Thread(new Runnable() {
             @Override
