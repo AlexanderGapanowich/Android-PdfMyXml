@@ -1,7 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.hendrix.pdfdroid">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.hendrix.pdfdroid">
 
-    <application android:allowBackup="true">
+    <application tools:replace="android:allowBackup">
 
     </application>
 
